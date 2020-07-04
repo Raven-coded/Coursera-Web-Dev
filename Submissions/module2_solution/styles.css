@@ -1,0 +1,115 @@
+/*Styling for the Module-2 Assignment*/
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%; 
+}
+
+h1{
+  text-align: center;
+  margin: 30px;
+}
+
+.items{
+  border: 2px solid black;
+  background: #b5b1a7;
+  float: left; 
+}
+
+.heading{
+  border: 1px solid black;
+  width:100px;
+  float: right;
+  padding: 3px 10px 5px 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+section{
+  clear: right;
+  margin: 25px 12px 12px 12px;
+}
+
+.divout{
+  padding: 20px;
+}
+
+#Chicken p{
+  background: #d59898;
+}
+#Beef p{
+  background: #c14543;
+  color: white;
+}
+
+#Sushi p{
+  background: #e5d198;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6{
+    float: left;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6, .col-md-7, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+.col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
